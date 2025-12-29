@@ -19,3 +19,24 @@ If you are developing a production application, we recommend using TypeScript wi
 # voice-to-text-recorder
 This project is a cross-platform desktop application that converts speech to text in real-time. Built with React for the frontend and Tauri for native desktop capabilities, it integrates the Deepgram API for accurate and fast speech-to-text transcription.
 >>>>>>> c9a9c7308fba8b31325f1878620e64aba09ef216
+# Voice-to-Text Recorder 🎙️
+
+A simple voice-to-text desktop/web application built using **React + MediaRecorder API + Deepgram**.
+
+## 🚀 Features
+- Record voice using microphone
+- Convert speech to text (Deepgram API)
+- Audio playback
+- Download recorded audio
+- Clean black transparent UI
+
+## 🛠️ Tech Stack
+- React (Vite)
+- MediaRecorder API
+- Deepgram Speech-to-Text
+
+## 🔧 Setup Instructions
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/voice-to-text.git
