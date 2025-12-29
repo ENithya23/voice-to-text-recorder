@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "voicetotext",
+  "version": "0.1.0",
+  "identifier": "com.voicetotext.app",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Voice to Text",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+}
